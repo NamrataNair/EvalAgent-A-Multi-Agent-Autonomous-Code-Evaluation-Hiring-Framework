@@ -90,6 +90,10 @@ Each candidate is evaluated as:
 Excel file: `evaluation_results.xlsx`
 
 ---
+## **Author**
+Namrata Nair
+AI Engineer | Agent Systems | LLM Architect
+Focused on autonomous systems, evaluation pipelines, and multimodal AI frameworks.
 
 ## ⚙️ Installation
 
@@ -130,7 +134,4 @@ Validation (Feature/UI agents)
 
 This ensures robustness, fairness, and reproducibility.
 
-**Author**
-Namrata Nair
-AI Engineer | Agent Systems | LLM Architect
-Focused on autonomous systems, evaluation pipelines, and multimodal AI frameworks.
+
