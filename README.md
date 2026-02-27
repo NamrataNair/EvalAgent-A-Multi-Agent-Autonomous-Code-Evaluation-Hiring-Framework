@@ -41,6 +41,24 @@ Aggregator (Scale Enforcement)
 ↓
 Excel Report
 
+The system will:
+1. Execute projects in sandbox
+2. Evaluate features
+3. Perform UI testing (if enabled)
+4. Run multi-agent LLM scoring
+5. Generate Excel report
+
+
+## **🔐 Design Philosophy**
+EvalAgent separates:
+Judgement (LLMs)
+Governance (Aggregator enforcement)
+Execution (Docker sandbox)
+Validation (Feature/UI agents)
+
+This ensures robustness, fairness, and reproducibility.
+
+
 
 ## 🧠 Agents in the System
 
@@ -116,22 +134,4 @@ Place candidate folders inside:
 candidates/
 
 python run_agentic_evaluation.py
-
-The system will:
-1. Execute projects in sandbox
-2. Evaluate features
-3. Perform UI testing (if enabled)
-4. Run multi-agent LLM scoring
-5. Generate Excel report
-
-
-**🔐 Design Philosophy**
-EvalAgent separates:
-Judgement (LLMs)
-Governance (Aggregator enforcement)
-Execution (Docker sandbox)
-Validation (Feature/UI agents)
-
-This ensures robustness, fairness, and reproducibility.
-
 
